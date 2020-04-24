@@ -1,0 +1,158 @@
+html, body {
+  font-family: 'Questrial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: rgb(246,210,106);
+  background: linear-gradient(111deg, rgba(246,210,106,1) 0%, rgba(255,159,0,1) 52%, rgba(251,197,100,1) 100%);
+}
+input, textarea {
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+ 
+  
+}
+
+#intro {
+   position: absolute;
+   top: 25px;
+   text-align: center;
+   width: 100%;
+   font-size: 50px;
+   color: rgb(41, 105, 176);
+}
+
+#created {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+  color: rgb(41, 105, 176);
+}
+
+#weatherApp {
+  width: 350px;
+  height: 500px;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.38);
+}
+#header {
+  width: 100%;
+  height: 100px;
+  background: rgb(201,121,8);
+  background: linear-gradient(161deg, rgba(201,121,8,1) 0%, rgba(222,137,32,1) 52%, rgba(241,173,95,1) 100%);
+  display: flex;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+#weatherLocation {
+  width: 200px;
+  height: 30px; 
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  margin-left: 10px;
+  border-radius: 4px;
+  border: 0;
+  background-color: orange;
+  
+}
+#weatherIcon {
+  height: 100px;
+  width: 100%;
+  background-color: transparent;
+  
+}
+#main {
+  width: 350px;
+  height: 350px;
+  text-align: center;
+  background: rgb(87,117,244);
+  background: linear-gradient(329deg, rgba(87,117,244,0.9252743333661589) 0%, rgba(66,83,186,1) 52%, rgba(105,189,255,1) 100%);
+  
+}
+#footer {
+  width: 100%;
+  height: 50px;
+  background: rgb(201,121,8);
+  background: linear-gradient(161deg, rgba(201,121,8,1) 0%, rgba(222,137,32,1) 52%, rgba(241,173,95,1) 100%);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#currentTemp {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 50px;
+  user-select: none;
+    
+}
+.tabContent {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: bolder;
+  
+  user-select: none;
+}
+
+#updatedAt {
+  width: 75%;
+  height: 25px;
+ 
+  text-align: center;
+}
+
+#details {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  line-height: 25px;
+}
+
+
+
+#desc {
+  font-size: 20px;
+  font-weight: bolder;
+  line-height: 40px;
+}
+#search {
+  height: 30px;
+  border-radius: 10px;
+  color: #4253ba;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer; 
+  font-size: 25px;
+  
+}
+
+#findLoc {
+  height: 30px;
+  border-radius: 10px;
+  color: #4253ba;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer; 
+  font-size: 25px;
+}
+
